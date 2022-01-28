@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20C69" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="EncounterCD" representedClassName="EncounterCD" syncable="YES" codeGenerationType="class">
+        <attribute name="encounterDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="encounterID" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="encounterMask" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="encounterTime" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="encounterLocation" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LocationCD" inverseName="encounter" inverseEntity="LocationCD"/>
+        <relationship name="encounterPersons" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PersonCD" inverseName="encounter" inverseEntity="PersonCD"/>
+    </entity>
+    <entity name="LocationCD" representedClassName="LocationCD" syncable="YES" codeGenerationType="class">
+        <attribute name="locationAddress" attributeType="String"/>
+        <attribute name="locationID" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="locationLatitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="locationLongitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="locationName" attributeType="String"/>
+        <relationship name="encounter" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="EncounterCD" inverseName="encounterLocation" inverseEntity="EncounterCD"/>
+    </entity>
+    <entity name="PersonCD" representedClassName="PersonCD" syncable="YES" codeGenerationType="class">
+        <attribute name="personID" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="personName" attributeType="String"/>
+        <attribute name="personNumber" optional="YES" attributeType="String"/>
+        <relationship name="encounter" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="EncounterCD" inverseName="encounterPersons" inverseEntity="EncounterCD"/>
+    </entity>
+    <elements>
+        <element name="EncounterCD" positionX="-63" positionY="-18" width="128" height="119"/>
+        <element name="LocationCD" positionX="142.9957275390625" positionY="-103.2381286621094" width="128" height="118"/>
+        <element name="PersonCD" positionX="-77.4891357421875" positionY="186.8270568847656" width="128" height="88"/>
+    </elements>
+</model>
