@@ -49,6 +49,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+![App Screenshot](Kontakttagebuch/Kontakttagebuch/Resources/Assets.xcassets/contact_log.png)
+
 With our Contact Diary, it's possible to save the locations you have been to and the people you have met for the last 14 days. After this period, the data is automatically deleted to ensure privacy and relevance.
 
 Here's why this app is useful:
