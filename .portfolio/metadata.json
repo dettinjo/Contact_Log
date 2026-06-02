@@ -15,5 +15,8 @@
     "Xcode",
     "Mobile App"
   ],
-  "description": "A native iOS app for logging personal contacts and tracking interaction history, built with Swift and Core Data."
+  "description": "A native iOS app for logging personal contacts and tracking interaction history, built with Swift and Core Data.",
+  "titleDe": "Kontakttagebuch",
+  "descriptionDe": "Eine native iOS-App zur Verwaltung von Kontakten und zur Nachverfolgung von Interaktionen, entwickelt mit Swift und Core Data.",
+  "projectTypeDe": "Mobile Anwendung"
 }
