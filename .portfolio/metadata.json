@@ -1,0 +1,10 @@
+{
+  "title": "Contact Log",
+  "projectType": "Mobile Application",
+  "developedAt": "2025-09-18T00:00:00+00:00",
+  "weight": 2,
+  "publishLink": true,
+  "liveUrl": null,
+  "repoUrl": "https://github.com/dettinjo/Contact_Log",
+  "tags": ["Swift", "SwiftUI", "iOS", "Core Data", "CloudKit", "Xcode", "Mobile App"]
+}
