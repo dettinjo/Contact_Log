@@ -1,3 +1,5 @@
+<!-- portfolio:date=2021-02-01 -->
+
 [Deutsch](README.de.md) · [English](README.md)
 
 # Kontakttagebuch
@@ -6,10 +8,12 @@ Eine native iOS-Anwendung zur Verwaltung persönlicher Kontakte und zur Nachverf
 
 ## Screenshots
 
-![Add](docs/add.webp)
-![Encounter](docs/encounter.webp)
-![Locations](docs/locations.webp)
-![Persons](docs/persons.webp)
+<p align="center">
+  <img src="docs/add.webp" width="31%" />
+  <img src="docs/encounter.webp" width="31%" />
+  <img src="docs/locations.webp" width="31%" />
+  <img src="docs/persons.webp" width="31%" />
+</p>
 
 ### Funktionen
 
