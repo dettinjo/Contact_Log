@@ -1,3 +1,5 @@
+<!-- portfolio:date=2021-02-01 -->
+
 [English](README.md) · [Deutsch](README.de.md)
 
 # Contact Log
@@ -6,10 +8,12 @@ An iOS application for tracking and logging personal and professional contact in
 
 ## Screenshots
 
-![Add](docs/add.webp)
-![Encounter](docs/encounter.webp)
-![Locations](docs/locations.webp)
-![Persons](docs/persons.webp)
+<p align="center">
+  <img src="docs/add.webp" width="31%" />
+  <img src="docs/encounter.webp" width="31%" />
+  <img src="docs/locations.webp" width="31%" />
+  <img src="docs/persons.webp" width="31%" />
+</p>
 
 ### Features
 
