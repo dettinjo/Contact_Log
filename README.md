@@ -4,7 +4,7 @@
 
 # Contact Log
 
-An iOS application for tracking and logging personal and professional contact interactions. Built natively with Swift and SwiftUI, the app uses Core Data for local persistence with CloudKit sync for seamless data continuity across devices.
+A native iOS app for logging personal contacts and tracking interaction history, built with Swift and Core Data.
 
 ## Screenshots
 
