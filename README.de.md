@@ -4,7 +4,7 @@
 
 # Kontakttagebuch
 
-Eine native iOS-Anwendung zur Verwaltung persönlicher Kontakte und zur Nachverfolgung von Interaktionen. Entwickelt mit Swift und Core Data für persistente, offline-fähige Datenspeicherung.
+Eine native iOS-App zum Protokollieren persönlicher Kontakte und Interaktionsverläufe, entwickelt mit Swift und Core Data.
 
 ## Screenshots
 
